@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0 (1).js"></script>
+    <script src="s.js"></script>
+</head>
+<body>
+   
+    <div class="body">
+        <table id="table">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="inpt1" name="inputk">
+                </td>
+            </tr>
+            <tr>
+                <td><button class="n" value="AC" onclick="AC()">AC</button></td>
+                <td><button class="n" value="su" onclick="SUPR()"> su</button></td>
+                <td><button class="n" value="("  onclick="RR( '(')"> (</button></td>
+                <td><button class="n" value=")" onclick="RR(')')">)</button></td>
+                <tr>
+                    <td><button value="cos("  onclick="cas()">cos(</button></td>
+                    <td><button value="sin("  onclick="san()">sin(</button></td>
+                    <td><button value="tan("  onclick="tan()">tan(</button></td>
+                    <td><button value="sqrt" onclick="sq()">sqrt(</button></td>                       
+                </tr>
+            <tr>
+                <td><button value="7" id="n7" onclick="RR(7)">7</button></td>
+                <td><button value=""onclick="RR(8)">8</button></td>
+                <td><button value="9"onclick="RR(9)">9</button></td>
+                <td><button class="n" value="%" onclick="p()">%</button ></td>
+            </tr>
+            <tr>
+                <td><button value="4"onclick="RR(4)">4</button></td>
+                <td><button value="5"onclick="RR(5)">5</button></td>
+                <td><button value="6"onclick="RR(6)">6</button></td>
+                <td><button class="n" value="&#8722"onclick="RR('/')" onclick="division()" >/</button ></td>
+            </tr>
+            <tr>
+                <td><button value="1 "onclick="RR(1)">1</button></td>
+                <td><button value="2"onclick="RR(2)">2</button></td>
+                <td><button value="3"onclick="RR(3)">3</button></td>
+                <td><button class="n"value="*" onclick="RR('-')" onclick="sustr()">- </button></td> 
+                
+            </tr>
+            <tr>
+                <td ><button value="0"onclick="RR(0)">0</button></td>
+                <td><button class="n" id="add" value="+" onclick="RR('+')" onclick="egal()" >+</button></td>
+    
+                <td><button value="." onclick="RR('.')">.</button></td>
+                <td><button class="n"value="*" onclick="RR('*')" onclick="multiplication()">X</button></td>   
+            </tr>
+            <tr>
+                    <td colspan="2" ><button class="n" id="tos" value="0"  onclick="egal()" onclick="multiplication()" onclick="division()" > = </button></td> 
+                
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+button{
+   
+    
+
+    margin-left: 5px;
+    cursor: pointer;
+    color:#000080;
+    border-radius: 20px;
+   width: 100px;
+   height: 70px;
+   font-size:x-large;
+  
+    
+}
+
+input{
+    width: 431px;
+    height: 70px;
+   border-radius: 20px;
+
+}
+#tos{
+    width: 190px;
+  
+}
+button:hover{
+    background-color:#3BACB6;
+    color: aliceblue;
+}
+
+#table{
+    background-color:white;
+    border-radius: 20px;
+    border: solid 2px #000080;
+    background-color: #3BACB6;
+    
+    margin: auto ;
+    margin-top: 50px;
+    
+    
+    
+
+
+}
+
+.n{
+    color:orangered;
+}
+.to{
+    background-color: orangered;
+}
